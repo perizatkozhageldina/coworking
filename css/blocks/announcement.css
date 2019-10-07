@@ -1,0 +1,21 @@
+.announcement {
+    background: url("../../content/reviews/pattern.png");
+    background-position: center;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.announcement__article {
+    color: #fff;
+    text-align: justify;
+    padding: 28px 12px;
+}
+
+.promotion {
+    color: #ec1e79;
+}

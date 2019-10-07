@@ -1,0 +1,27 @@
+.breadcrumbs__list {
+    text-decoration: none;
+    font-style: italic;
+    display: flex;
+    color: #ec1e79;
+}
+
+.breadcrumbs__item:after {
+    content: " / ";
+    color: #000;
+}
+
+.breadcrumbs__item:last-child:after {
+    content: "";
+}
+
+.breadcrumbs__item.active {
+    color: #000;
+}
+
+.breadcrumbs__link {
+    color: #ec1e79;
+}
+
+.breadcrumbs__link:hover {
+    color: #000;
+}

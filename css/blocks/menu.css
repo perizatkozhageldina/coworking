@@ -1,0 +1,135 @@
+.menu--prices {
+    margin-top: 6px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.menu__list > li {
+    list-style: none;
+}
+
+.menu__item {
+    margin-right: 90px;
+    cursor: pointer;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ec1e79;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.menu__text:before {
+    content: "";
+    width: 20px;
+    height: 18px;
+    background: no-repeat center center;
+    margin-right: 18px;
+}
+
+.menu__text:before:first-child {
+    margin-top: 0;
+}
+
+.menu__text:hover {
+    color: #000;
+}
+
+.menu__text.active {
+    color: #000;
+}
+
+.menu__text.white:hover {
+    color: #fff;
+}
+
+.menu__text.active.white {
+    color: #fff;
+    margin-left: 50px;
+}
+
+.menu__text--triangle.active.white:before {
+    content: "";
+    width: 17px; height: 15px;
+    background: url('../../content/base/sprites.png') -84px -86px;
+}
+
+.menu__text--star.white:hover:before {
+    content: "";
+    width: 20px; height: 18px;
+    background: url('../../content/base/sprites.png') -10px -48px;
+}
+
+.menu__text--wallet.white:hover:before {
+    content: "";
+    width: 19px; height: 16px;
+    background: url('../../content/base/sprites.png') -90px -46px;
+}
+
+.menu__text--triangle:before {
+    content: "";
+    width: 17px; height: 15px;
+    background: url('../../content/base/sprites.png') -47px -86px;
+}
+
+.menu__text--triangle:hover:before {
+    content: "";
+    width: 17px; height: 15px;
+    background: url('../../content/base/sprites.png') -10px -86px;
+}
+
+.menu__text--triangle.active:before {
+    content: "";
+    width: 17px; height: 15px;
+    background: url('../../content/base/sprites.png') -10px -86px;
+}
+
+.menu__text--star:before {
+    content: "";
+    width: 20px; height: 18px;
+    background: url('../../content/base/sprites.png') -50px -10px;
+}
+
+.menu__text--star:hover:before {
+    content: "";
+    width: 20px; height: 18px;
+    background: url('../../content/base/sprites.png') -10px -10px;
+}
+
+.menu__text--star.active:before {
+    content: "";
+    width: 20px; height: 18px;
+    background: url('../../content/base/sprites.png') -10px -10px;
+}
+
+.menu__text--wallet:before {
+    content: "";
+    width: 19px; height: 16px;
+    background: url('../../content/base/sprites.png') -90px -10px;
+}
+
+.menu__text--wallet:hover:before {
+    content: "";
+    width: 19px; height: 16px;
+    background: url('../../content/base/sprites.png') -50px -48px;
+}
+
+.menu__text--wallet.active:before {
+    content: "";
+    width: 19px; height: 16px;
+    background: url('../../content/base/sprites.png') -50px -48px;
+}

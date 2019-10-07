@@ -1,0 +1,74 @@
+.features {
+    border: 1px solid #e8e9ed;
+    padding: 31px 45px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.features__list {
+    list-style: none;
+}
+
+.features__item {
+    text-align: center;
+}
+
+.features__icon {
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    background-color: #27273e;
+    margin: 0 auto;
+}
+
+.features__icon--flower {
+    background-image: url("../../content/main/flower.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features__icon--star {
+    background-image: url("../../content/main/mark-as-favorite-star.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features__icon--palette {
+    background-image: url("../../content/main/painter-palette.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features__title {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 4.64;
+  letter-spacing: 2.64px;
+  text-align: center;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.features__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__desc-list {
+    text-align: center;
+}
+
+.features__desc-item {
+    display: block;
+    text-align: left;
+    color: #221f1f;    
+}
+
+.features__desc-item::before {
+    content: "\2022";
+    color: #cc3366;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+}

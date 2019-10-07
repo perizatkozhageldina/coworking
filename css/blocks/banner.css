@@ -1,0 +1,8 @@
+.banner {
+    background: #27273e;
+}
+
+.banner__image {
+    width: inherit;
+    margin: 0 auto;
+}

@@ -1,0 +1,103 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 20px;
+}
+
+.contacts__phone {
+    color: inherit;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "GothamPro", Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.dropdown__schedule {
+    color: #ec1e79;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown__schedule {
+    color: #5dd1f8;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dropdown__block::before{
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    right: 0;
+    top: -14px;
+    position: absolute;
+    z-index: 10;
+  }
+
+.dropdown__block {
+    color: #221f1f;
+    font-size: 14px;
+    width: 150px;
+    min-height: 61px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+    border-radius: 3px;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown__block, .dropdown:hover .dropdown__triangle {
+    top: 125%;
+    left: 27%;
+    opacity: 0.9;
+}
+
+.dropdown__item {
+    line-height: 18px;
+}
+
+.dropdown__item:first-child {
+    color: #ec1e79;
+    font-weight: bold;
+}
+
+.dropdown__triangle {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: 40px;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+  .dropdown__triangle:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: 138px;
+  }

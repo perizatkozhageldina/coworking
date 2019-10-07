@@ -1,0 +1,37 @@
+.partners {
+    border: 1px solid #e8e9ed;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.partners__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.partners__list {
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.partners__item {
+    cursor: pointer;
+    margin: 19px;
+}
+
+.partners__img {
+    filter: grayscale(1);
+}
+
+.partners__img:hover {
+    filter: grayscale(0);
+}
